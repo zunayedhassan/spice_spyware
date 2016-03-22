@@ -1,0 +1,10 @@
+('C:\\Users\\Zunayed Hassan\\PycharmProjects\\spice\\dist\\Spice.exe',
+ False,
+ False,
+ 'Spy.ico',
+ None,
+ [],
+ None,
+ True,
+ 0,
+ 1371183504L)

@@ -1,0 +1,1 @@
+C:\Python27\python.exe C:\pyinstaller-2.0\pyinstaller.py --onefile --console --icon=Unlock.ico SpiceReportUnlocker.py

@@ -1,0 +1,10 @@
+('C:\\Users\\Zunayed Hassan\\PycharmProjects\\spice_report_unlocker\\dist\\SpiceReportUnlocker.exe',
+ True,
+ False,
+ 'Unlock.ico',
+ None,
+ [],
+ None,
+ True,
+ 0,
+ 1371131700L)

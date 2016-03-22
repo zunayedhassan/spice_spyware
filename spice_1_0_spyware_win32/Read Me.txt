@@ -1,0 +1,66 @@
+APPLICATION:    Spice (Spyware)
+VERSION:        1.0
+PLATFORM:       Windows 8
+
+AUTHOR:         Mohammod Zunayed Hassan
+EMAIL:          zunayed-hassan@live.com
+
+RELEASE DATE:   13th June, 2013 10:55 PM
+
+FEATURES:        1. Key logger
+                 2. Clipboard copier
+                 3. Firefox, Opera, Google Chrome history and bookmark digger
+                 4. System information
+                 5. Screenshot taker
+                 6. Webcam image taker
+                 7. Silently installing within windows
+                 8. Sending observation/report to author via email with encryption
+                 9. Also author can browse user's folder via email
+                10. Easily configurable through 'Settings.py' file
+
+				
+SOFTWRAE REQUIREMENTS FOR BUILDING PROJECT:
+				 1. Python 2.7
+				 2. Pysqlite-2.6.3
+				 3. Winshell
+				 4. Pyscreenshot
+				 5. Pyperclip (already given)
+				 6. OpenCV-2.4.3
+				 7. Numpy (for Python 2.7)
+				 8. Pyxser-1.5.2
+				 9. Pycrypto-2.6
+				10. Pyinstaller-2.0
+				11. Pywin-32
+				
+INSTALL:
+	Although I have already made a Windows executable file for you located at "dist" folder which should
+	work on Windows 8. But that program will only report to me. So, it is always better to build your own
+	program. Instructions are bellow. I hope it will help.
+
+	(a) Open "Settings.py" with notepad or idle. Change it if you want, specially AGENT_HQ_EMAIL_ADDRESSES.
+	(b) After installing all the required software, just run "build_spice.bat".
+	(c) It will automatically build "Spice.exe" at "dist" folder
+	(d) Then run "Spice.exe". Wait for a moment until black command line window disappear.
+	(e) Now, there is a new shortcut will appear at the same folder name, "Spice.lnk". Open it.
+	(f) Done !!! Now you can delete "Spice.exe" or "Spice.lnk" if you want. From now on, this spice
+		program will run silently on every time user logged in to Windows and email to you according to
+		"Settings.py"
+		
+USAGE:
+	(a) If you already got email from spice, then I think you also get an attachment called "report.dat".
+	(b) Now, save that to your PC, and open "SpiceReportUnlocker.exe" from dist folder.
+	(c) Give your "report.dat" location and save location like "report_decrypted.txt".
+	(d) It will decrypt the report and you may open that with any text file.
+	
+	EXAMPLE:
+		SPICE REPORT DECRYPTER
+		----------------------
+		
+		-> Please type a path:	D:\Spice Report\report.dat
+		-> Save location:		D:\Spice Report\report_decrypted.txt
+		[i] MESSAGE: Report saved at D:\Spice Report\report_decrypted.txt
+	
+	
+	
+NOTE:	If you are planning to use this, then I want you to say that, I will not take responsibility for
+		you action and Good Luck :-)
